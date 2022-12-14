@@ -1,0 +1,91 @@
+
+.Card-Main h5{
+    font-family: 'Noto Serif NP Hmong', serif !important;
+  font-family: 'Playfair Display', serif !important  ;
+  }
+  .sus-title{
+    font-family: 'Noto Serif NP Hmong', serif !important;
+  font-family: 'Playfair Display', serif !important;
+  }
+  .Card-Main h6{
+    font-weight: 100;
+    font-family: 'Lora', serif !important;
+  font-family: 'Yrsa', serif !important;
+  color: #dba285;
+  }
+  .Card-Main p{
+   color: rgb(149, 149, 149);
+  }
+    .img-slide {
+  position: relative;
+  text-align: center;
+  color: white;
+  }
+  .centered {
+  position: absolute;
+  top: 78%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  }
+  .Y-light{
+    background-color: #CE8460;
+    color: white;
+  }
+  .active a{
+    color: rgb(255, 255, 255) !important;
+    background-color: #CE8460 !important;
+    border:none;
+  }
+  .page-link{
+    color: black !important;
+    background-color: #f8f7f7 !important;
+    border:none;
+  }
+  .list-inline-item a{
+    text-decoration: none;
+    color: rgb(70, 68, 65);
+    font-size: 13px;
+    font-weight: 500;
+  }
+  .email-input{
+    width: 450px;
+    border: none;
+    outline: none;
+  }
+  .email-input:focus{
+    z-index: 10;
+   
+    border: solid  rgb(209, 181, 127) 1px;
+  box-shadow: none;
+  
+  -webkit-box-shadow: none;
+  
+  }
+  .nav-item a{
+  font-weight: 500 !important;
+  }
+  li a:hover{
+  color: rgb(196, 147, 114) !important;
+  }
+  
+  @media only screen and (max-width: 1200px){
+    /*Tablets [601px -> 1200px]*/
+    .email-input{
+    width: 350px;
+    border: none;
+  }
+  }
+  @media only screen and (max-width: 600px){
+  /*Big smartphones [426px -> 600px]*/
+    .email-input{
+    width: 250px;
+    border: none;
+  }
+  }
+  @media only screen and (max-width: 425px){
+  /*Small smartphones [325px -> 425px]*/
+    .email-input{
+    width: 150px;
+    border: none;
+  }
+  }
